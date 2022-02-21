@@ -10,6 +10,6 @@ def wavenum_convert(wavenumber):
 
 def try_me():
     wavenumber = 20_000
-    wavelength = wavenum_convert(20000)
+    wavelength = wavenum_convert(wavenumber)
     result = f"Wavenumber {wavenumber} cm-1 converted to Wavelength {wavelength} nm"
     return result
